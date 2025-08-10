@@ -1,0 +1,109 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.2.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AplicatieMedicala.Application": {
+      "path": "src/AplicatieMedicala.Application/AplicatieMedicala.Application.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.Application.Tests": {
+      "path": "test/AplicatieMedicala.Application.Tests/AplicatieMedicala.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AplicatieMedicala.Domain.Shared": {
+      "path": "src/AplicatieMedicala.Domain.Shared/AplicatieMedicala.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.Application.Contracts": {
+      "path": "src/AplicatieMedicala.Application.Contracts/AplicatieMedicala.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.HttpApi": {
+      "path": "src/AplicatieMedicala.HttpApi/AplicatieMedicala.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.HttpApi.Client": {
+      "path": "src/AplicatieMedicala.HttpApi.Client/AplicatieMedicala.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.EntityFrameworkCore.Tests": {
+      "path": "test/AplicatieMedicala.EntityFrameworkCore.Tests/AplicatieMedicala.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AplicatieMedicala.EntityFrameworkCore": {
+      "path": "src/AplicatieMedicala.EntityFrameworkCore/AplicatieMedicala.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.TestBase": {
+      "path": "test/AplicatieMedicala.TestBase/AplicatieMedicala.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AplicatieMedicala.Domain.Tests": {
+      "path": "test/AplicatieMedicala.Domain.Tests/AplicatieMedicala.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AplicatieMedicala.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AplicatieMedicala.HttpApi.Client.ConsoleTestApp/AplicatieMedicala.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AplicatieMedicala.DbMigrator": {
+      "path": "src/AplicatieMedicala.DbMigrator/AplicatieMedicala.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.HttpApi.Host": {
+      "path": "src/AplicatieMedicala.HttpApi.Host/AplicatieMedicala.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.Blazor": {
+      "path": "src/AplicatieMedicala.Blazor/AplicatieMedicala.Blazor.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.Blazor.Client": {
+      "path": "src/AplicatieMedicala.Blazor.Client/AplicatieMedicala.Blazor.Client.abppkg",
+      "folder": "src"
+    },
+    "AplicatieMedicala.Domain": {
+      "path": "src/AplicatieMedicala.Domain/AplicatieMedicala.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

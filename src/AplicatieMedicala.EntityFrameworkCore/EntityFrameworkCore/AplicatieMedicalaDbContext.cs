@@ -1,4 +1,4 @@
-using AplicatieMedicala.Entities;
+using AplicatieMedicala.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
@@ -15,7 +15,8 @@ using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
-using AplicatieMedicala.Entities;
+
+
 
 namespace AplicatieMedicala.EntityFrameworkCore;
 
@@ -32,6 +33,7 @@ public class AplicatieMedicalaDbContext :
     public DbSet<Medic> Medici { get; set; }
     public DbSet<Specializare> Specializari { get; set; }
     public DbSet<Programare> Programari { get; set; }
+
 
 
     #region Entities from the modules

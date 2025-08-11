@@ -1,19 +1,16 @@
-using AplicatieMedicala.Entities;
-using AplicatieMedicala.Pacienti;
+using AplicatieMedicala.Application.Contracts.Pacienti;
+using AplicatieMedicala.Domain.Entities;
 using System;
 using Volo.Abp.Application.Dtos;
 using Volo.Abp.Application.Services;
 using Volo.Abp.Domain.Repositories;
 
-namespace MedicalAppointments.Pacienti
+public class PacientAppService : CrudAppService<
+    Pacient, PacientDto, Guid, PagedAndSortedResultRequestDto, CreateUpdatePacientDto, CreateUpdatePacientDto>,
+    IPacientAppService
 {
-    public class PacientAppService :
-        CrudAppService<Pacient, PacientDto, Guid, PagedAndSortedResultRequestDto, CreateUpdatePacientDto>,
-        IPacientAppService
+    public PacientAppService(IRepository<Pacient, Guid> repository) : base(repository)
     {
-        public PacientAppService(IRepository<Pacient, Guid> repository)
-            : base(repository)
-        {
-        }
+        // custom logic if needed
     }
 }

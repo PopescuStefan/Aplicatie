@@ -1,0 +1,30 @@
+@namespace AplicatieMedicala.Blazor.Client.Shared
+@inherits LayoutComponentBase
+
+<div class="main-layout">
+    <header>
+        <h1>Aplicatie Medicala</h1>
+        <hr />
+    </header>
+
+    <main class="content px-4">
+        @Body
+    </main>
+
+    <footer class="mt-auto text-center">
+        <hr />
+        <p>&copy; 2025 Aplicatie Medicala</p>
+    </footer>
+</div>
+
+<style>
+    .main-layout {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    main.content {
+        flex: 1;
+    }
+</style>

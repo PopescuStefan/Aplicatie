@@ -1,21 +1,23 @@
+using AplicatieMedicala.Application.Contracts.Medici;
+using AplicatieMedicala.Application.Contracts.Pacienti;
+using AplicatieMedicala.Application.Contracts.Programari;
+using AplicatieMedicala.Application.Contracts.Specializari;
+using AplicatieMedicala.Domain.Entities;
 using AutoMapper;
-using AplicatieMedicala.Entities;
-using AplicatieMedicala.Pacienti;
 
-namespace AplicatieMedicala;
+
 
 public class AplicatieMedicalaApplicationAutoMapperProfile : Profile
 {
     public AplicatieMedicalaApplicationAutoMapperProfile()
     {
-        CreateMap<Pacient, PacientDto>();
-        CreateMap<CreateUpdatePacientDto, Pacient>();
+        CreateMap<Pacient, PacientDto>().ReverseMap();
+        CreateMap<Pacient, CreateUpdatePacientDto>().ReverseMap();
 
-        /* You can configure your AutoMapper mapping configuration here.
-         * Alternatively, you can split your mapping configurations
-         * into multiple profile classes for a better organization. */
+        CreateMap<Medic, MedicDto>().ReverseMap();
+        CreateMap<Specializare, SpecializareDto>().ReverseMap();
+
+        CreateMap<Programare, ProgramareDto>().ReverseMap();
+        CreateMap<CreateProgramareDto, Programare>().ReverseMap();
     }
 }
-
-
-

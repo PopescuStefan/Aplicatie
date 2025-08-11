@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using AplicatieMedicala.Blazor.Components;
 using AplicatieMedicala.Blazor.Client;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Components.WebAssembly.WebApp;
@@ -14,6 +13,7 @@ using Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling;
 using Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling;
 using Volo.Abp.UI.Navigation;
 using AplicatieMedicala.Blazor.Menus;
+using Volo.Abp.AspNetCore.Components.Web.Theming.Routing;
 
 
 namespace AplicatieMedicala.Blazor;
@@ -27,15 +27,17 @@ public class AplicatieMedicalaBlazorModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
+        Configure<AbpNavigationOptions>(options =>
+        {
+            options.MenuContributors.Add(new AplicatieMedicalaMenuContributor());
+        });
+
         Configure<AbpRouterOptions>(options =>
         {
             options.AppAssembly = typeof(AplicatieMedicalaBlazorModule).Assembly;
         });
 
-        Configure<AbpNavigationOptions>(options =>
-        {
-            options.MenuContributors.Add(new AplicatieMedicalaMenuContributor());
-        });
+      
 
         //https://github.com/dotnet/aspnetcore/issues/52530
         Configure<RouteOptions>(options =>
@@ -84,11 +86,11 @@ public class AplicatieMedicalaBlazorModule : AbpModule
         app.MapAbpStaticAssets();
         app.UseAntiforgery();
 
-        app.UseConfiguredEndpoints(builder =>
+        /*app.UseConfiguredEndpoints(builder =>
         {
             builder.MapRazorComponents<App>()
                 .AddInteractiveWebAssemblyRenderMode()
                 .AddAdditionalAssemblies(WebAppAdditionalAssembliesHelper.GetAssemblies<AplicatieMedicalaBlazorClientModule>());
-        });
+        });*/
     }
 }

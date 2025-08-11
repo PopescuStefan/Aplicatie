@@ -1,9 +1,9 @@
 using System;
 using Volo.Abp.Application.Dtos;
 
-namespace AplicatieMedicala.Pacienti
+namespace AplicatieMedicala.Application.Contracts.Pacienti
 {
-    public class PacientDto : AuditedEntityDto<Guid>
+    public class PacientDto : EntityDto<Guid>
     {
         public string Nume { get; set; }
         public string Email { get; set; }

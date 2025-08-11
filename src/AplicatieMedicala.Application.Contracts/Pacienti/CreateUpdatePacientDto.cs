@@ -1,6 +1,7 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace AplicatieMedicala.Pacienti
+namespace AplicatieMedicala.Application.Contracts.Pacienti
 {
     public class CreateUpdatePacientDto
     {
@@ -14,7 +15,7 @@ namespace AplicatieMedicala.Pacienti
         public string Telefon { get; set; }
 
         [Required]
-        [RegularExpression(@"\d{13}", ErrorMessage = "CNP-ul trebuie sã aibã 13 cifre.")]
+        [StringLength(13, MinimumLength = 13)]
         public string CNP { get; set; }
     }
 }

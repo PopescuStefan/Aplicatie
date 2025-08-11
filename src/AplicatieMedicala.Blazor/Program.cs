@@ -1,3 +1,4 @@
+﻿using Volo.Abp;
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -6,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using AplicatieMedicala.Blazor;
 using Serilog;
 using Serilog.Events;
+using Autofac.Extensions.DependencyInjection; // Adaugă asta
 
 namespace AplicatieMedicala.Blazor;
 
@@ -29,13 +31,20 @@ public class Program
         {
             Log.Information("Starting web host.");
             var builder = WebApplication.CreateBuilder(args);
-            builder.Host.AddAppSettingsSecretsJson()
-                .UseAutofac()
+
+            builder.Host
+                .AddAppSettingsSecretsJson()
                 .UseSerilog();
+
+            builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
             await builder.AddApplicationAsync<AplicatieMedicalaBlazorModule>();
+
             var app = builder.Build();
+
             await app.InitializeApplicationAsync();
             await app.RunAsync();
+
             return 0;
         }
         catch (Exception ex)

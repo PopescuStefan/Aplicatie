@@ -62,7 +62,7 @@ public class AplicatieMedicalaBlazorModule : AbpModule
             var globalScripts = options.ScriptBundles.Get(BlazorWebAssemblyStandardBundles.Scripts.Global);
             globalScripts.AddContributors(typeof(AplicatieMedicalaScriptBundleContributor));
 
-        });
+        }); 
     }
 
     public override void OnApplicationInitialization(ApplicationInitializationContext context)

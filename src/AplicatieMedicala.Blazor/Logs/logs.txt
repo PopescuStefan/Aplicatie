@@ -5528,3 +5528,341 @@ System.MissingMethodException: Method not found: 'Void Volo.Abp.DependencyInject
 2025-08-11 13:56:34.947 +03:00 [INF] Content root path: C:\Users\unu\Desktop\Aplicatie\src\AplicatieMedicala.Blazor
 2025-08-11 13:56:35.277 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44314/ - 404 0 null 5336.5278ms
 2025-08-11 13:56:35.278 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44314/, Response status code: 404
+2025-08-21 09:51:24.915 +03:00 [INF] Starting web host.
+2025-08-21 09:51:29.079 +03:00 [DBG] Loaded ABP modules:
+2025-08-21 09:51:29.080 +03:00 [DBG] - AplicatieMedicala.Blazor.AplicatieMedicalaBlazorModule
+2025-08-21 09:51:29.080 +03:00 [DBG]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-08-21 09:51:29.080 +03:00 [DBG]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-08-21 09:51:29.080 +03:00 [DBG]   - Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeBundlingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]   - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]     - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-08-21 09:51:29.080 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-08-21 09:51:29.080 +03:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-08-21 09:51:29.080 +03:00 [DBG]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Data.AbpDataModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                   - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                   - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Json.AbpJsonModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                   - Volo.Abp.Timing.AbpTimingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                     - Volo.Abp.Localization.AbpLocalizationModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                       - Volo.Abp.Settings.AbpSettingsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                         - Volo.Abp.Security.AbpSecurityModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                       - Volo.Abp.Threading.AbpThreadingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.Http.AbpHttpModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Minify.AbpMinifyModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.Validation.AbpValidationModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.UI.AbpUiModule
+2025-08-21 09:51:29.080 +03:00 [DBG]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-08-21 09:51:29.080 +03:00 [DBG]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.EventBus.AbpEventBusModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.Guids.AbpGuidsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Caching.AbpCachingModule
+2025-08-21 09:51:29.080 +03:00 [DBG]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-08-21 09:51:29.080 +03:00 [DBG]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-08-21 09:51:29.080 +03:00 [DBG]             - Volo.Abp.Features.AbpFeaturesModule
+2025-08-21 09:51:29.080 +03:00 [DBG]     - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
+2025-08-21 09:51:30.333 +03:00 [INF] User profile is available. Using 'C:\Users\unu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 09:51:30.343 +03:00 [INF] Initialized all ABP modules.
+2025-08-21 09:51:30.455 +03:00 [INF] Now listening on: https://localhost:44314
+2025-08-21 09:51:31.512 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44314/ - null null
+2025-08-21 09:51:36.897 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 09:51:36.897 +03:00 [INF] Hosting environment: Development
+2025-08-21 09:51:36.897 +03:00 [INF] Content root path: C:\Users\unu\Desktop\Aplicatie\src\AplicatieMedicala.Blazor
+2025-08-21 09:51:37.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44314/ - 404 0 null 5777.7101ms
+2025-08-21 09:51:37.290 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44314/, Response status code: 404
+2025-08-21 09:51:40.810 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44314/ - null null
+2025-08-21 09:51:40.810 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44314/ - 404 0 null 0.7849ms
+2025-08-21 09:51:40.811 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44314/, Response status code: 404
+2025-08-21 09:52:03.539 +03:00 [INF] Starting web host.
+2025-08-21 09:52:04.223 +03:00 [DBG] Loaded ABP modules:
+2025-08-21 09:52:04.224 +03:00 [DBG] - AplicatieMedicala.Blazor.AplicatieMedicalaBlazorModule
+2025-08-21 09:52:04.224 +03:00 [DBG]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-08-21 09:52:04.224 +03:00 [DBG]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-08-21 09:52:04.224 +03:00 [DBG]   - Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeBundlingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]   - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]     - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-08-21 09:52:04.224 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-08-21 09:52:04.224 +03:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-08-21 09:52:04.224 +03:00 [DBG]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Data.AbpDataModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                   - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                   - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Json.AbpJsonModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                   - Volo.Abp.Timing.AbpTimingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                     - Volo.Abp.Localization.AbpLocalizationModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                       - Volo.Abp.Settings.AbpSettingsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                         - Volo.Abp.Security.AbpSecurityModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                       - Volo.Abp.Threading.AbpThreadingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.Http.AbpHttpModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Minify.AbpMinifyModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.Validation.AbpValidationModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.UI.AbpUiModule
+2025-08-21 09:52:04.224 +03:00 [DBG]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-08-21 09:52:04.224 +03:00 [DBG]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.EventBus.AbpEventBusModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.Guids.AbpGuidsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Caching.AbpCachingModule
+2025-08-21 09:52:04.224 +03:00 [DBG]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-08-21 09:52:04.224 +03:00 [DBG]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-08-21 09:52:04.224 +03:00 [DBG]             - Volo.Abp.Features.AbpFeaturesModule
+2025-08-21 09:52:04.224 +03:00 [DBG]     - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
+2025-08-21 09:52:04.970 +03:00 [INF] User profile is available. Using 'C:\Users\unu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 09:52:04.973 +03:00 [INF] Initialized all ABP modules.
+2025-08-21 09:52:05.060 +03:00 [INF] Now listening on: https://localhost:44314
+2025-08-21 09:52:05.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44314/ - null null
+2025-08-21 09:52:11.019 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 09:52:11.019 +03:00 [INF] Hosting environment: Development
+2025-08-21 09:52:11.019 +03:00 [INF] Content root path: C:\Users\unu\Desktop\Aplicatie\src\AplicatieMedicala.Blazor
+2025-08-21 09:52:11.359 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44314/ - 404 0 null 6020.9447ms
+2025-08-21 09:52:11.360 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44314/, Response status code: 404
+2025-08-21 09:53:22.562 +03:00 [INF] Starting web host.
+2025-08-21 09:53:23.254 +03:00 [DBG] Loaded ABP modules:
+2025-08-21 09:53:23.254 +03:00 [DBG] - AplicatieMedicala.Blazor.AplicatieMedicalaBlazorModule
+2025-08-21 09:53:23.254 +03:00 [DBG]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-08-21 09:53:23.254 +03:00 [DBG]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-08-21 09:53:23.254 +03:00 [DBG]   - Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeBundlingModule
+2025-08-21 09:53:23.254 +03:00 [DBG]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
+2025-08-21 09:53:23.254 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]   - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-08-21 09:53:23.254 +03:00 [DBG]     - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-08-21 09:53:23.254 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-08-21 09:53:23.254 +03:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-08-21 09:53:23.254 +03:00 [DBG]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-08-21 09:53:23.254 +03:00 [DBG]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-08-21 09:53:23.254 +03:00 [DBG]               - Volo.Abp.Data.AbpDataModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                   - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                   - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]               - Volo.Abp.Json.AbpJsonModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                   - Volo.Abp.Timing.AbpTimingModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                     - Volo.Abp.Localization.AbpLocalizationModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                       - Volo.Abp.Settings.AbpSettingsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                         - Volo.Abp.Security.AbpSecurityModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                       - Volo.Abp.Threading.AbpThreadingModule
+2025-08-21 09:53:23.254 +03:00 [DBG]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-08-21 09:53:23.254 +03:00 [DBG]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]             - Volo.Abp.Http.AbpHttpModule
+2025-08-21 09:53:23.254 +03:00 [DBG]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-08-21 09:53:23.254 +03:00 [DBG]               - Volo.Abp.Minify.AbpMinifyModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-08-21 09:53:23.255 +03:00 [DBG]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.Validation.AbpValidationModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.UI.AbpUiModule
+2025-08-21 09:53:23.255 +03:00 [DBG]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-08-21 09:53:23.255 +03:00 [DBG]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-08-21 09:53:23.255 +03:00 [DBG]               - Volo.Abp.EventBus.AbpEventBusModule
+2025-08-21 09:53:23.255 +03:00 [DBG]                 - Volo.Abp.Guids.AbpGuidsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-08-21 09:53:23.255 +03:00 [DBG]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-08-21 09:53:23.255 +03:00 [DBG]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-08-21 09:53:23.255 +03:00 [DBG]               - Volo.Abp.Caching.AbpCachingModule
+2025-08-21 09:53:23.255 +03:00 [DBG]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-08-21 09:53:23.255 +03:00 [DBG]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-08-21 09:53:23.255 +03:00 [DBG]             - Volo.Abp.Features.AbpFeaturesModule
+2025-08-21 09:53:23.255 +03:00 [DBG]     - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
+2025-08-21 09:53:23.980 +03:00 [INF] User profile is available. Using 'C:\Users\unu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 09:53:23.983 +03:00 [INF] Initialized all ABP modules.
+2025-08-21 09:53:24.070 +03:00 [INF] Now listening on: https://localhost:44314
+2025-08-21 09:53:24.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44314/ - null null
+2025-08-21 09:53:31.561 +03:00 [INF] Starting web host.
+2025-08-21 09:53:32.269 +03:00 [DBG] Loaded ABP modules:
+2025-08-21 09:53:32.269 +03:00 [DBG] - AplicatieMedicala.Blazor.AplicatieMedicalaBlazorModule
+2025-08-21 09:53:32.269 +03:00 [DBG]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-08-21 09:53:32.269 +03:00 [DBG]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-08-21 09:53:32.269 +03:00 [DBG]   - Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeBundlingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]   - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]     - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-08-21 09:53:32.269 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-08-21 09:53:32.269 +03:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-08-21 09:53:32.269 +03:00 [DBG]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-08-21 09:53:32.269 +03:00 [DBG]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]               - Volo.Abp.Data.AbpDataModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                   - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                   - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]               - Volo.Abp.Json.AbpJsonModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                   - Volo.Abp.Timing.AbpTimingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                     - Volo.Abp.Localization.AbpLocalizationModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                       - Volo.Abp.Settings.AbpSettingsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                         - Volo.Abp.Security.AbpSecurityModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                       - Volo.Abp.Threading.AbpThreadingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-08-21 09:53:32.269 +03:00 [DBG]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]             - Volo.Abp.Http.AbpHttpModule
+2025-08-21 09:53:32.269 +03:00 [DBG]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]               - Volo.Abp.Minify.AbpMinifyModule
+2025-08-21 09:53:32.269 +03:00 [DBG]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-08-21 09:53:32.269 +03:00 [DBG]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-08-21 09:53:32.269 +03:00 [DBG]             - Volo.Abp.Validation.AbpValidationModule
+2025-08-21 09:53:32.269 +03:00 [DBG]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-08-21 09:53:32.269 +03:00 [DBG]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-08-21 09:53:32.270 +03:00 [DBG]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-08-21 09:53:32.270 +03:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-08-21 09:53:32.270 +03:00 [DBG]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-08-21 09:53:32.270 +03:00 [DBG]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-08-21 09:53:32.270 +03:00 [DBG]             - Volo.Abp.UI.AbpUiModule
+2025-08-21 09:53:32.270 +03:00 [DBG]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-08-21 09:53:32.270 +03:00 [DBG]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-08-21 09:53:32.270 +03:00 [DBG]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-08-21 09:53:32.270 +03:00 [DBG]               - Volo.Abp.EventBus.AbpEventBusModule
+2025-08-21 09:53:32.270 +03:00 [DBG]                 - Volo.Abp.Guids.AbpGuidsModule
+2025-08-21 09:53:32.270 +03:00 [DBG]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-08-21 09:53:32.270 +03:00 [DBG]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-08-21 09:53:32.270 +03:00 [DBG]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-08-21 09:53:32.270 +03:00 [DBG]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-08-21 09:53:32.270 +03:00 [DBG]               - Volo.Abp.Caching.AbpCachingModule
+2025-08-21 09:53:32.270 +03:00 [DBG]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-08-21 09:53:32.270 +03:00 [DBG]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-08-21 09:53:32.270 +03:00 [DBG]             - Volo.Abp.Features.AbpFeaturesModule
+2025-08-21 09:53:32.270 +03:00 [DBG]     - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
+2025-08-21 09:53:32.983 +03:00 [INF] User profile is available. Using 'C:\Users\unu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 09:53:32.987 +03:00 [INF] Initialized all ABP modules.
+2025-08-21 09:53:33.082 +03:00 [INF] Now listening on: https://localhost:44314
+2025-08-21 09:53:33.599 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44314/ - null null
+2025-08-21 09:53:39.953 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 09:53:39.953 +03:00 [INF] Hosting environment: Development
+2025-08-21 09:53:39.953 +03:00 [INF] Content root path: C:\Users\unu\Desktop\Aplicatie\src\AplicatieMedicala.Blazor
+2025-08-21 09:53:40.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44314/ - 404 0 null 6706.6776ms
+2025-08-21 09:53:40.307 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44314/, Response status code: 404
+2025-08-21 09:54:50.769 +03:00 [INF] Starting web host.
+2025-08-21 09:54:51.447 +03:00 [DBG] Loaded ABP modules:
+2025-08-21 09:54:51.447 +03:00 [DBG] - AplicatieMedicala.Blazor.AplicatieMedicalaBlazorModule
+2025-08-21 09:54:51.447 +03:00 [DBG]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-08-21 09:54:51.447 +03:00 [DBG]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-08-21 09:54:51.447 +03:00 [DBG]   - Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling.AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeBundlingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]     - Volo.Abp.AspNetCore.Components.WebAssembly.Theming.Bundling.AbpAspNetCoreComponentsWebAssemblyThemingBundlingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]   - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]     - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-08-21 09:54:51.447 +03:00 [DBG]       - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-08-21 09:54:51.447 +03:00 [DBG]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-08-21 09:54:51.447 +03:00 [DBG]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.Auditing.AbpAuditingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Data.AbpDataModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                   - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                   - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Json.AbpJsonModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                   - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                   - Volo.Abp.Timing.AbpTimingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                     - Volo.Abp.Localization.AbpLocalizationModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                       - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                       - Volo.Abp.Settings.AbpSettingsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                         - Volo.Abp.Security.AbpSecurityModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                       - Volo.Abp.Threading.AbpThreadingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.Http.AbpHttpModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Minify.AbpMinifyModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.Validation.AbpValidationModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.UI.AbpUiModule
+2025-08-21 09:54:51.447 +03:00 [DBG]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-08-21 09:54:51.447 +03:00 [DBG]           - Volo.Abp.Application.AbpDddApplicationModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.EventBus.AbpEventBusModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.Guids.AbpGuidsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Caching.AbpCachingModule
+2025-08-21 09:54:51.447 +03:00 [DBG]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-08-21 09:54:51.447 +03:00 [DBG]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-08-21 09:54:51.447 +03:00 [DBG]             - Volo.Abp.Features.AbpFeaturesModule
+2025-08-21 09:54:51.447 +03:00 [DBG]     - Volo.Abp.AspNetCore.Bundling.AbpAspNetCoreBundlingModule
+2025-08-21 09:54:52.222 +03:00 [INF] User profile is available. Using 'C:\Users\unu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-21 09:54:52.225 +03:00 [INF] Initialized all ABP modules.
+2025-08-21 09:54:52.310 +03:00 [INF] Now listening on: https://localhost:44314
+2025-08-21 09:54:52.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44314/ - null null
+2025-08-21 09:54:58.336 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 09:54:58.336 +03:00 [INF] Hosting environment: Development
+2025-08-21 09:54:58.336 +03:00 [INF] Content root path: C:\Users\unu\Desktop\Aplicatie\src\AplicatieMedicala.Blazor
+2025-08-21 09:54:58.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44314/ - 404 0 null 5700.1291ms
+2025-08-21 09:54:58.664 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44314/, Response status code: 404
